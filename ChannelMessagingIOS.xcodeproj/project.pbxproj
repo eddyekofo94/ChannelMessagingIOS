@@ -14,6 +14,7 @@
 		95EC83251E7E67DF00289696 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95EC83231E7E67DF00289696 /* LaunchScreen.storyboard */; };
 		95EC83301E7E67E000289696 /* ChannelMessagingIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EC832F1E7E67E000289696 /* ChannelMessagingIOSTests.swift */; };
 		95EC833B1E7E67E000289696 /* ChannelMessagingIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EC833A1E7E67E000289696 /* ChannelMessagingIOSUITests.swift */; };
+		95EC83491E7ECCAA00289696 /* LoginTestfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EC83481E7ECCAA00289696 /* LoginTestfield.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		95EC83361E7E67E000289696 /* ChannelMessagingIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChannelMessagingIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95EC833A1E7E67E000289696 /* ChannelMessagingIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelMessagingIOSUITests.swift; sourceTree = "<group>"; };
 		95EC833C1E7E67E000289696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95EC83481E7ECCAA00289696 /* LoginTestfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTestfield.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				95EC831A1E7E67DF00289696 /* AppDelegate.swift */,
 				95EC831C1E7E67DF00289696 /* ViewController.swift */,
+				95EC83481E7ECCAA00289696 /* LoginTestfield.swift */,
 				95EC831E1E7E67DF00289696 /* Main.storyboard */,
 				95EC83211E7E67DF00289696 /* Assets.xcassets */,
 				95EC83231E7E67DF00289696 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95EC83491E7ECCAA00289696 /* LoginTestfield.swift in Sources */,
 				95EC831D1E7E67DF00289696 /* ViewController.swift in Sources */,
 				95EC831B1E7E67DF00289696 /* AppDelegate.swift in Sources */,
 			);
@@ -514,6 +518,7 @@
 				95EC83411E7E67E000289696 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95EC83421E7E67E000289696 /* Build configuration list for PBXNativeTarget "ChannelMessagingIOSTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				95EC83441E7E67E000289696 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95EC83451E7E67E000289696 /* Build configuration list for PBXNativeTarget "ChannelMessagingIOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				95EC83471E7E67E000289696 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
