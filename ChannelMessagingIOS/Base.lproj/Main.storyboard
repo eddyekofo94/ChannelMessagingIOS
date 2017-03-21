@@ -125,10 +125,50 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+            <point key="canvasLocation" x="-90" y="119"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="JIB-h7-9oh">
+            <objects>
+                <viewController id="wzA-et-Ex5" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PTQ-U0-mnu"/>
+                        <viewControllerLayoutGuide type="bottom" id="NO3-Mi-J8p"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleAspectFill" id="aDW-mb-g1z">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Channel_bg" translatesAutoresizingMaskIntoConstraints="NO" id="b96-h1-xQC">
+                                <rect key="frame" x="0.0" y="-4.5" width="375" height="676"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="1Rz-sP-cSq"/>
+                                    <constraint firstAttribute="height" constant="676" id="4L5-B6-waD"/>
+                                </constraints>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ADU-9G-ovZ">
+                                <rect key="frame" x="16" y="117" width="342.5" height="530"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ADU-9G-ovZ" firstAttribute="top" secondItem="PTQ-U0-mnu" secondAttribute="bottom" constant="97" id="9Jq-fn-ETS"/>
+                            <constraint firstItem="ADU-9G-ovZ" firstAttribute="leading" secondItem="aDW-mb-g1z" secondAttribute="leadingMargin" id="NvI-I2-2vs"/>
+                            <constraint firstItem="b96-h1-xQC" firstAttribute="centerY" secondItem="aDW-mb-g1z" secondAttribute="centerY" id="l8F-te-tDn"/>
+                            <constraint firstAttribute="bottom" secondItem="ADU-9G-ovZ" secondAttribute="bottom" constant="20" symbolic="YES" id="onM-4G-D5W"/>
+                            <constraint firstItem="b96-h1-xQC" firstAttribute="centerX" secondItem="aDW-mb-g1z" secondAttribute="centerX" id="xeG-7d-Ihx"/>
+                            <constraint firstItem="ADU-9G-ovZ" firstAttribute="centerX" secondItem="b96-h1-xQC" secondAttribute="centerX" id="yyE-dr-Fkz"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XXK-ap-ZkY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="636" y="118.29085457271366"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Channel_bg" width="375" height="667"/>
         <image name="background" width="379" height="669"/>
         <image name="channel_messaging_logo" width="204" height="140"/>
         <image name="square_bg" width="379" height="413"/>

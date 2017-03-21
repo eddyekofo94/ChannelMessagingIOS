@@ -1,0 +1,46 @@
+text field 
+
+Login button: #6C8A5A
+
+/* channel_messaging_logo: */
+background: #51811A;
+box-shadow: 0 2px 25px 0 rgba(0,0,0,0.50);
+
+/* Rectangle 3: */
+background: #6C8A5A;
+/* LOGIN: */
+font-family: SourceSansPro-Semibold;
+font-size: 17px;
+color: #FFFFFF;
+
+/* Rectangle 2: */
+background: #FFFFFF;
+border: 1px solid #D4D4D4;
+/* John Doe: */
+font-family: SourceSansPro-Semibold;
+font-size: 17px;
+color: #324D3D;
+/* USERNAME: */
+font-family: SourceSansPro-Semibold;
+font-size: 10px;
+color: #CECECE;
+
+/* Rectangle 2 Copy: */
+background: #FFFFFF;
+border: 1px solid #D4D4D4;
+/* ***********: */
+font-family: SourceSansPro-Semibold;
+font-size: 17px;
+color: #324D3D;
+/* PASSWORD: */
+font-family: SourceSansPro-Semibold;
+font-size: 10px;
+color: #CECECE;
+
+/* background: */
+background: rgba(111,131,108,0.35);
+
+/* Combined Shape: */
+background: #FFFFFF;
+box-shadow: 0 0 25px 0 rgba(0,0,0,0.20);
+border-radius: 5px;
