@@ -25,6 +25,12 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    //When protected page is loaded/Created  line: 31 will execute, and will will present the user with the loginView.
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        self.performSegue(withIdentifier: "loginShow", sender: self)
+    }
 
 
 }
