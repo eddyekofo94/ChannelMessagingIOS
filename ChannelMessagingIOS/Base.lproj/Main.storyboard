@@ -157,7 +157,7 @@
         <!--View Controller-->
         <scene sceneID="JIB-h7-9oh">
             <objects>
-                <viewController id="wzA-et-Ex5" sceneMemberID="viewController">
+                <viewController id="wzA-et-Ex5" customClass="ViewController" customModule="ChannelMessagingIOS" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="PTQ-U0-mnu"/>
                         <viewControllerLayoutGuide type="bottom" id="NO3-Mi-J8p"/>
@@ -188,34 +188,14 @@
                             <constraint firstItem="ADU-9G-ovZ" firstAttribute="centerX" secondItem="b96-h1-xQC" secondAttribute="centerX" id="yyE-dr-Fkz"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="6Mg-ev-03M">
-                        <barButtonItem key="leftBarButtonItem" tag="2" title="Logout" style="done" id="gdk-Ml-kee">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6lG-hA-Lua">
-                                <rect key="frame" x="16" y="7" width="83" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Logout"/>
-                            </button>
-                            <color key="tintColor" red="0.25098040700000002" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                        </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Message" id="fNV-3s-eoz">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9jm-eg-HF7">
-                                <rect key="frame" x="276" y="7" width="83" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Messages"/>
-                            </button>
-                            <color key="tintColor" red="0.25098040700000002" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                            <connections>
-                                <segue destination="T6f-6m-xa0" kind="presentation" identifier="messagesShow" id="jWq-aU-ejc"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="6Mg-ev-03M"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="show" identifier="loginShow" id="Gq6-di-eOZ"/>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="loginView" id="Gq6-di-eOZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XXK-ap-ZkY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="130.40000000000001" y="118.29085457271366"/>
+            <point key="canvasLocation" x="2" y="86"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Rmp-5A-RFA">

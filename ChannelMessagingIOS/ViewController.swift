@@ -14,10 +14,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let attributedString = NSAttributedString(string:"Forgot your password?", attributes: [NSForegroundColorAttributeName:UIColor.white, NSUnderlineStyleAttributeName
+        _ = NSAttributedString(string:"Forgot your password?", attributes: [NSForegroundColorAttributeName:UIColor.white, NSUnderlineStyleAttributeName
             : 1])
         
-        passwordButton.setAttributedTitle(attributedString, for: .normal)
+       // passwordButton.setAttributedTitle(attributedString, for: .normal)
         
     }
 
@@ -29,7 +29,7 @@ class ViewController: UIViewController {
     //When protected page is loaded/Created  line: 31 will execute, and will will present the user with the loginView.
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        self.performSegue(withIdentifier: "loginShow", sender: self)
+        self.performSegue(withIdentifier: "loginView", sender: self)
     }
 
 
